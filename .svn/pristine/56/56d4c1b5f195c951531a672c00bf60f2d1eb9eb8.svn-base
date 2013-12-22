@@ -1,0 +1,44 @@
+/*
+ * Open Source 'Open Sans' Font from Google. See: http://www.google.com/fonts/specimen/Open+Sans
+ */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(/res/lib/opensans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(/res/lib/lib/opensans/OpenSans-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(/res/lib/lib/opensans/OpenSans-Bold.ttf) format('truetype');
+}
+
+
+html, body {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {	
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-weight: 600;
+}
